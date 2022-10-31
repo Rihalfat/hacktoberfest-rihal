@@ -1,0 +1,26 @@
+<html>
+<body>
+<head>
+<style>
+h2{
+border:1px solid white;border-radius:0px;width:300px;padding:10px;margin-bottom:0px;background:white;color:black;margin-top:100px;}
+.form{border:1px solid grey;border-radius:2px;width:300px;margin-top:0px;padding:10px; background:blue}
+</style>
+</head>
+<div align="center">
+<h2><center>Sign my GuestBook</center></h2>
+
+<form action="add.php" method="POST">
+<table bgcolor="#D0D0D0" align="center" width="330">
+<tr><td align="center">Name</td><td><input type="text" name="name"/></td></tr>
+<tr><td align="center">Email</td><td><input type="text" name="email"/></td></tr>
+<tr><td align="center">Message</td><td  ><textarea name="message" cols="30" rows="2"></textarea></td></tr>
+<tr><td align="center">Guest type </td>
+<td><select name="guest">
+<option value="Family">Family</option>
+<option value="Friend">Friend</option>
+<option value="Unknown" selected>Unknown</option></select></td></tr>
+<tr><td colspan="2" align="center" ><input type="submit" value="sign GuestBook" name="sign"/></td><tr>
+</form>
+</body>
+</html> 
